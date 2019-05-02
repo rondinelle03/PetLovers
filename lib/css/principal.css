@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Gothambook';
     src: url('Gotham-Book.woff2') format('woff2'),
@@ -246,14 +245,15 @@ transition: all 0.3s ease;
 .secao-fale-conosco .row{
 	margin-bottom: 0;
 }
-.wpcf7-submit{
-	background: url(../../imgs/bg-detalhe-rodape.jpg) center top;
+.wpcf7-submit {
+    background: url(../../imgs/bg-detalhe-rodape.jpg) center top;
     border: 0;
     text-transform: uppercase;
     color: #fff;
-    padding: 12px 8px;
+    padding: 12px 8px 2px 8px;
     float: right;
-    margin: 20px 0; 
+    margin: 20px 0;
+    height: 39px;
 }
 
 
@@ -312,6 +312,10 @@ footer .titulo-branco span::before{
     left: 6px;
 }
 
+#sidenav-overlay{
+	z-index: 20;
+}
+
 @media only screen and  (min-width:1150px){
 
 	#quem-somos,#servicos,#eventos,#contato{
@@ -360,21 +364,36 @@ footer .titulo-branco span::before{
 		    font-size: 37px;
 	}
 
+	.texto{
+		text-align: left !important;
+	}
+
 	.curt-tit {
     font-size: 23px;
 }
 .isnt-tit {
     font-size: 24px;
 }
-	header {
-    position: relative;
-}
+	header{
+		position: relative;
+	}
 
 .titulo-branco {
     font-size: 27px;
     
 }
-
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #666;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #666;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #666;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #666;
+}
 	.im-vido{
 		 top: 50px;
 		width: 100%;

@@ -41,7 +41,10 @@
 				    <div class="nav-wrapper container">
 				      <a href="<?php bloginfo('url'); ?>/" href="superior" class="link brand-logo"><img src="<?php bloginfo('template_url'); ?>/imgs/logo-pet-lovers.png"></a>
 				      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-				      <ul class="right hide-on-med-and-down">
+
+				
+				<?php if (is_home()): ?>
+         			<ul class="right hide-on-med-and-down">
 				         <li><a class="link" href="#quem-somos" >QUEM SOMOS</a></li>
 				        <li><a class="link" href="#servicos" >SERVIÇOS</a></li>
 				        <li><a class="link" href="#eventos" >EVENTOS</a></li>
@@ -49,12 +52,31 @@
 				        <li><a class="link" href="#rodape" >LOCALIZAÇÃO</a></li>
 				      </ul>
 				      <ul class="side-nav" id="mobile-demo">
-				        <li><a class="link" href="#quem-somos" >QUEM SOMOS</a></li>
-				        <li><a class="link" href="#servicos" >SERVIÇOS</a></li>
-				        <li><a class="link" href="#eventos" >EVENTOS</a></li>
-				        <li><a class="link" href="#contato" >FALE CONOSCO</a></li>
-				        <li><a class="link" href="#rodape" >LOCALIZAÇÃO</a></li>
+				        <li><a class="scroll" href="#quem-somos" >QUEM SOMOS</a></li>
+				        <li><a class="scroll" href="#servicos" >SERVIÇOS</a></li>
+				        <li><a class="scroll" href="#eventos" >EVENTOS</a></li>
+				        <li><a class="scroll" href="#contato" >FALE CONOSCO</a></li>
+				        <li><a class="scroll" href="#rodape" >LOCALIZAÇÃO</a></li>
 				      </ul>
+
+       			<?php else: ?>
+				      <ul class="right hide-on-med-and-down">
+				         <li><a class="link" href="<?php bloginfo('url'); ?>/#quem-somos" >QUEM SOMOS</a></li>
+				        <li><a class="link" href="<?php bloginfo('url'); ?>/#servicos" >SERVIÇOS</a></li>
+				        <li><a class="link" href="<?php bloginfo('url'); ?>/#eventos" >EVENTOS</a></li>
+				        <li><a class="link" href="<?php bloginfo('url'); ?>/#contato" >FALE CONOSCO</a></li>
+				        <li><a class="link" href="<?php bloginfo('url'); ?>/#rodape" >LOCALIZAÇÃO</a></li>
+				      </ul>
+				      <ul class="side-nav" id="mobile-demo">
+				        <li><a class="link" href="<?php bloginfo('url'); ?>/#quem-somos" >QUEM SOMOS</a></li>
+				        <li><a class="link" href="<?php bloginfo('url'); ?>/#servicos" >SERVIÇOS</a></li>
+				        <li><a class="link" href="<?php bloginfo('url'); ?>/#eventos" >EVENTOS</a></li>
+				        <li><a class="link" href="<?php bloginfo('url'); ?>/#contato" >FALE CONOSCO</a></li>
+				        <li><a class="link" href="<?php bloginfo('url'); ?>/#rodape" >LOCALIZAÇÃO</a></li>
+				      </ul>
+
+				<?php endif ?>
+
 				    </div>
 				  </nav>      
 	       		

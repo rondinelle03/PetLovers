@@ -10,24 +10,25 @@
 					  </video>
 				 </div>
 */?>
+
  	<section class="dest-capa owl-carousel owl-theme">
 
  				<div class="item">
-        			<div class="container vido-x"></div>
-	        		<video class="responsive-video" autoplay poster="<?php bloginfo('template_url'); ?>/imgs/parrots.jpg">
-					    <source src="http://petlovers2.com.br/dog/Dog-Lovers_720p.mp4" type="video/mp4">
-					  </video>
+					<a href="https://api.whatsapp.com/send?phone=5584981039190&Oi=CLIQUE%20PARA%20INICIAR" target="_blank"><img src="<?php bloginfo('template_url'); ?>/imgs/cao-gresso-v2.jpg" class="responsive-img"></a>
 				 </div>
-			
+ 				<div class="item">
+					<img src="<?php bloginfo('template_url'); ?>/imgs/Vitrine_Site_Loveday.png" class="responsive-img">
+				 </div>
+				<div class="item">
+					<img src="<?php bloginfo('template_url'); ?>/imgs/Base_Vitrine_Site_estetica.jpg" class="responsive-img">
+				 </div>
 				 <div class="item">
 					<img src="<?php bloginfo('template_url'); ?>/imgs/daycare-800.jpg" class="responsive-img">
 				 </div>
 				 <div class="item">
 					<img src="<?php bloginfo('template_url'); ?>/imgs/loja-800.jpg" class="responsive-img">
 				 </div>
-				 <div class="item">
-					<img src="<?php bloginfo('template_url'); ?>/imgs/adestramento-800.jpg" class="responsive-img">
-				 </div>
+				
 				 <div class="item">
 					<img src="<?php bloginfo('template_url'); ?>/imgs/hospedagem-800.jpg" class="responsive-img">
 				 </div>
@@ -35,6 +36,11 @@
 					<img src="<?php bloginfo('template_url'); ?>/imgs/consultorio-800.jpg" class="responsive-img">
 				 </div>
 			</section>
+
+
+<!-- <div class="item">
+					<img src="<?php bloginfo('template_url'); ?>/imgs/adestramento-800.jpg" class="responsive-img">
+				 </div>-->
 
 			  <section id="quem-somos">
 				  	<div class="container">
@@ -79,12 +85,12 @@
 						    		<img src="<?php bloginfo('template_url'); ?>/imgs/icones/hospedagem.png"><p>HOSPEDAGEM</p>
 						    	</a>
 						    </div>
-						     <div class="item">
+						   <!--  <div class="item">
 						    	<a href="<?php bloginfo('url'); ?>/adestramento">
 						    		<img class="plus" src="<?php bloginfo('template_url'); ?>/imgs/icones/plus.png">
 						    		<img src="<?php bloginfo('template_url'); ?>/imgs/icones/adestramento.png"><p>ADESTRAMENTO</p>
 						    	</a>
-						    </div>
+						    </div>-->
 						    <div class="item">
 						    	<a href="<?php bloginfo('url'); ?>/higiene-e-beleza">
 						    		<img class="plus" src="<?php bloginfo('template_url'); ?>/imgs/icones/plus.png">

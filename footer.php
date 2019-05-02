@@ -1,4 +1,3 @@
-
         
         	
 
@@ -14,7 +13,7 @@
         		<div class="container">
 	        		<div class="row">
 	        			<div class="col s12 m10">
-							<p class="white-text right"><span>PetLoverS2 | Rua Eduardo Gurgel, 1128, 59054-490 - Natal, Brazil | Telefone: (84) 3302-9479 | 98182-1128</span></p>
+							<p class="white-text right"><span>PetLoverS2 | Rua Eduardo Gurgel, 1128 - Lagoa Nova - CEP: 59054-490 - Natal | Telefone: (84) 3302-9479 | 98182-1128</span></p>
 						</div>
 						<div class="col s12 m2">
 							<p class="right"><img src="<?php bloginfo('template_url'); ?>/imgs/desenvolvimento-camaleao.png"></p>
