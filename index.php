@@ -170,8 +170,7 @@
 						<div class="col s12 m6">
 							<h2 class="titulo isnt-tit">SIGA NOSSO <span>INSTAGRAM</span></h2>
 							<!-- SnapWidget -->
-<script src="https://snapwidget.com/js/snapwidget.js"></script>
-<iframe src="https://snapwidget.com/embed/531160" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/2cc8a47ffdb55f38a4e813fc80ed4baa.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 						</div>
 					</div>
         		</div>
